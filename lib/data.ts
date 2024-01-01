@@ -6,7 +6,7 @@ import infinity from "@/public/Infinity.webp";
 import sumz from "@/public/Sum-z.webp";
 import nextauth from "@/public/nextauth.png";
 
-import css from "@/public/Skills/css.png";
+import css from "@/public/skills/css.png";
 import git from "@/public/skills/git.png";
 import html from "@/public/skills/html.png";
 import javascript from "@/public/skills/javascript.png";
