@@ -55,9 +55,7 @@ body {
 }
 
 .containers {
-    /* height: 100vh; */
     display: flex;
-    /* background-color: lightgrey; */
     justify-content: flex-end;
 }
 .bodys {
@@ -138,11 +136,5 @@ body {
             "a2"
             "a1"
             "a3";
-    }
-}
-
-@layer utilities {
-    .clip-path-hero {
-        /* clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%); */
     }
 }
