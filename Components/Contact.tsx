@@ -90,14 +90,14 @@ export default function Contact() {
                 >
                     <FaGithub className="h-14 w-14 rounded-full bg-secondary p-4 hover:text-white flex items-center dark:bg-tertiary dark:text-black" />
                 </Link>
-                <a
-                    href="/CV.pdf"
-                    download
+                <Link
+                    href="https://drive.google.com/file/d/1PNuLPWKa3KgV1Q4eiB8iCpXhLU1vIjtA/view?usp=sharing"
+                    target="_blank"
                     className="text-xl bg-white py-4 px-8 rounded-full hover:tracking-wide hover:bg-secondary hover:text-white transition-all duration-100 ease-in-out group dark:bg-darkBlack dark:border-2 dark:border-tertiary dark:text-white"
                 >
                     Resume
                     <FaDownload className="h-4 w-4 inline-block ml-2" />
-                </a>
+                </Link>
                 <Link
                     href="https://www.linkedin.com/in/sanjeev-kansyakar/"
                     target="blank"

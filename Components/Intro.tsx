@@ -61,7 +61,7 @@ export default function Intro() {
             className="relative mb-28 w-full min-h-srceen px-4 sm:px-10 text-center "
         >
             <motion.div
-                className="group text-left bg-primary text-4xl sm:text-6xl font-extrabold my-4 py-4 sm:py-8 px-6 rounded-3xl dark:bg-darkBG" // #1b1e1b 1e1b1e
+                className="group text-left bg-primary text-4xl sm:text-6xl font-extrabold my-4 py-4 sm:py-8 px-6 rounded-3xl dark:bg-darkBG"
                 initial={{ y: -100, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
             >
@@ -122,7 +122,7 @@ export default function Intro() {
                         <div className="flex justify-end items-center gap-4 mx-4 mt-3">
                             <Link
                                 href="#contact"
-                                className="group bg-secondary sm:text-2xl font-normal px-4 sm:px-12 py-2 sm:py-5 flex items-center gap-2 borderBlack rounded-[40px] outline-none focus:scale-110 hover:scale-105 active:scale-105 transition dark:bg-tertiary dark:text-darkBlack"
+                                className="group bg-secondary sm:text-2xl font-semibold px-4 sm:px-12 py-2 sm:py-5 flex items-center gap-2 borderBlack rounded-[40px] outline-none focus:scale-110 hover:scale-105 active:scale-105 transition dark:bg-tertiary dark:text-darkBlack"
                                 onClick={() => {
                                     setActiveSection("Contact");
                                     setTimeOfLastClick(Date.now());
@@ -132,14 +132,14 @@ export default function Intro() {
                                 <BsArrowRight className="opacity-80 group-hover:translate-x-1 transition" />
                             </Link>
 
-                            <a
+                            <Link
                                 className="group bg-white sm:text-2xl font-normal px-6 py-2 sm:px-12 sm:py-5 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack  dark:text-tertiary dark:bg-darkBlack dark:border-2 dark:border-tertiary"
-                                href="/CV.pdf"
-                                download
+                                href="https://drive.google.com/file/d/1PNuLPWKa3KgV1Q4eiB8iCpXhLU1vIjtA/view?usp=sharing"
+                                target="_blank"
                             >
                                 Resume{" "}
                                 <HiDownload className="opacity-70 dark:opacity-100 group-hover:translate-y-1 transition" />
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </motion.div>

@@ -60,7 +60,7 @@ function Project({ title, description, tags, imageUrl, link }: ProjectProps) {
                             group-hover:scale-[1.02] rounded-3xl"
                     />
 
-                    <Link href={link}>
+                    <Link href={link} target="_blank">
                         <div className="absolute btn-hover flex justify-center items-center z-50 -top-10 -right-10 rounded-full bg-[#181b2e] w-[140px] h-[140px] text-white text-lg font-semibold dark:bg-darkBlack dark:before:bg-tertiary dark:text-black dark:hover:text-white dark:hover:border-white">
                             Live Site{" "}
                             <span className="pl-2">
